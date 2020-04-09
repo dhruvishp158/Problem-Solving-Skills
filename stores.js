@@ -1,3 +1,15 @@
+// A company plans to open stores downtown in the
+// city of Techlandia. Downtown Techlandia consists of city 
+// blocks, represented as a grid of M*N
+// blocks. Each block represents either building denoted by
+// 1 or open land area denoted by 0.
+// Adjacent blocks with value 1 are considered clusters of 
+// buildings. Diagonal blocks with value 1 are not considered
+// part of the same cluster. this company plans to have a store 
+// in each cluster of buildings.
+
+// Write an algorithm to find the number of stores that 
+// this company can open in downtown Techlandia.
 var mainGrid = [
     [1, 1, 0, 0],
     [0, 0, 1, 0],
